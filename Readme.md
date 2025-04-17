@@ -47,7 +47,7 @@ The Worker Pool pattern is one of the most common and straightforward concurrenc
 - Result channel
 - Synchronization (WaitGroup)
 
-**Code Example:** [examples/worker-pool/main.go](examples/worker-pool/main.go)
+**Code Example:** [/workerpool/example1.go](https://github.com/bitsofmandal-com/go-concurrency-patterns/blob/main/workerpool/example1.go)
 
 **Use Cases:**
 - Web servers handling multiple client requests
@@ -63,7 +63,7 @@ Pipelines are perfect for operations that involve a series of stages where each 
 - Channels connecting the stages
 - Proper error handling and propagation
 
-**Code Example:** [examples/pipelines/main.go](examples/pipelines/main.go)
+**Code Example:** [/pipelines/example1.go](https://github.com/bitsofmandal-com/go-concurrency-patterns/blob/main/pipelines/example1.go)
 
 **Use Cases:**
 - ETL (Extract, Transform, Load) processes
@@ -80,7 +80,7 @@ When you need maximum parallelism, especially for CPU-intensive or I/O-bound ope
 - Output channel for collecting results
 - Synchronization for coordinating completion
 
-**Code Example:** [examples/fan-out-fan-in/main.go](examples/fan-out-fan-in/main.go)
+**Code Example:** [/faninout/example1.go](https://github.com/bitsofmandal-com/go-concurrency-patterns/blob/main/faninout/example1.go)
 
 
 **Use Cases:**
@@ -97,7 +97,7 @@ The Mutex pattern is essential when multiple goroutines need to access shared re
 - Critical section protection
 - Shared resource management
 
-**Code Example:** [examples/mutex/counter.go](examples/mutex/counter.go)
+**Code Example:** [/mutex/example1.go](https://github.com/bitsofmandal-com/go-concurrency-patterns/blob/main/mutex/example1.go)
 
 **Use Cases:**
 - Shared counters and state
@@ -113,7 +113,7 @@ The Semaphore Pattern limits the number of goroutines that can simultaneously ac
 - Acquire and release operations
 - Controlled concurrency
 
-**Code Example:** [examples/semaphore/main.go](examples/semaphore/main.go)
+**Code Example:** [/semaphores/example1.go](https://github.com/bitsofmandal-com/go-concurrency-patterns/blob/main/semaphores/example1.go)
 
 **Use Cases:**
 - Database connection limiting
