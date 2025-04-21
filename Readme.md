@@ -6,7 +6,7 @@
   <a href="https://www.youtube.com/watch?v=mm4ztXwysLk">
     <img src="https://i.ytimg.com/vi/mm4ztXwysLk/maxresdefault.jpg" alt="Golang Concurrency Patterns Video Tutorial" />
   </a>
-  <p><em>Click the image to watch the full video tutorial on YouTube</em></p>
+  <p><em>5 Most Used Golang Concurrency Patterns That 10x Your Application Performance</em></p>
 </div>
 
 ## Table of Contents
