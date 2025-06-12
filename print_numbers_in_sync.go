@@ -28,7 +28,7 @@ func worker(ch chan int, wg *sync.WaitGroup) {
 func PrintSynchronizedCounter() {
 	var wg sync.WaitGroup
 	counter := 1
-	ch := make(chan int, 1)
+	ch := make(chan int)
 
 	wg.Add(3)
 	for i := 1; i <= 3; i++ {
